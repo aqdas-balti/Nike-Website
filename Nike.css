@@ -6,10 +6,11 @@
 body {
   background-color: white;
 }
+/*Header of Website*/
 header {
   height: 40px;
   width: 100%;
-  background-color: aliceblue;
+  background-color: rgb(240, 240, 240);
 }
 nav {
   display: flex;
@@ -19,7 +20,7 @@ nav {
   height: 36px;
   width: 80%;
   padding: 8px;
-  margin-left: 10px;
+  margin-left: 30px;
   margin-right: 10px;
   list-style: none;
   display: flex;
@@ -42,6 +43,34 @@ h5 {
 .image {
   height: 24px;
   width: 24px;
-  margin-right: 8px;
-  background-color: aliceblue;
+  margin-right: 30px;
+}
+/* Main 1st Portion */
+
+.main1 {
+  margin-top: 10px;
+  display: flex;
+}
+.main1 .Left {
+  justify-content: flex-start;
+}
+.main1.Right {
+  justify-content: flex-end;
+}
+.Left {
+  list-style: none;
+}
+.Left-Img {
+  height: 50px;
+  width: 60px;
+}
+.Center {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+h4 {
+  margin-right: 12px;
+  margin-top: 20px;
+  font-weight: 550;
 }

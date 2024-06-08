@@ -15,9 +15,6 @@ header {
 nav {
   display: flex;
 }
-main {
-  font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-}
 
 .container {
   height: 36px;
@@ -45,6 +42,7 @@ main {
   width: 24px;
   padding-right: 30px;
 }
+
 /* Main 1st Portion */
 .main1 {
   margin-top: 20px;
@@ -69,11 +67,8 @@ main {
 }
 
 .Right .search {
-  height: 29.5px;
+  height: 32.8px;
   width: 25px;
-  border-top: 2px solid black;
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   background-color: rgb(240, 240, 240);
@@ -83,9 +78,6 @@ main {
   height: 32.8px;
   width: 120px;
   border: none;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  border-right: 2px solid black;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   margin-right: 15px;
@@ -123,7 +115,10 @@ main {
   font-weight: 600;
 }
 
+/* First Picture Sec */
+
 .first-picture {
+  margin-top: 7px;
   margin-bottom: 20px;
   height: 490px;
   width: 100%;
@@ -168,15 +163,264 @@ h1 {
   padding: 15px;
 }
 
-.video-auto {
-  height: 680px;
-  width: 100%;
-  background-color: antiquewhite;
-  margin-bottom: 50px;
-}
-.picture {
+.women-men {
   display: flex;
-  height: 200px;
-  width: 200px;
-  background-color: black;
+  flex-direction: row;
+}
+
+.women-running {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 100px;
+  height: 490px;
+  width: 50%;
+  background-image: url(/Pictures/Content/2nd.jpeg);
+  background-size: cover;
+}
+.men-running {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 490px;
+  width: 50%;
+  background-image: url(/Pictures/Content/3r.jpeg);
+  background-size: cover;
+}
+.btn1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+  height: 150px;
+  width: 300px;
+  color: white;
+}
+button {
+  margin-top: 20px;
+  height: 40px;
+  width: 70px;
+  border-radius: 50px;
+}
+.btn2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+  height: 150px;
+  width: 300px;
+  color: white;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+.upper {
+  font-weight: 500;
+  padding-left: 48px;
+}
+.inner1 {
+  height: 500px;
+  width: 420px;
+  margin-right: 12px;
+  background-image: url(/Pictures/Content/4th.jpeg);
+  background-size: cover;
+}
+.inner2 {
+  height: 500px;
+  width: 420px;
+  margin-right: 12px;
+  background-image: url(/Pictures/Content/5th.jpeg);
+  background-size: cover;
+}
+.inner3 {
+  height: 500px;
+  width: 420px;
+  background-image: url(/Pictures/Content/6th.jpeg);
+  background-size: cover;
+}
+.names {
+  display: flex;
+  margin-top: 10px;
+}
+.name1 {
+  padding-left: 47px;
+}
+.name2 {
+  padding-left: 348px;
+}
+.name3 {
+  padding-left: 337px;
+}
+h2 {
+  font-weight: 500;
+}
+
+.outer1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+.upper1 {
+  margin-top: 100px;
+  font-weight: 500;
+  padding-left: 62px;
+}
+.innerOne {
+  height: 300px;
+  width: 300px;
+  margin-right: 12px;
+  background-image: url(/Pictures/Content/7th.jpg);
+  background-size: cover;
+}
+.innerTwo {
+  height: 300px;
+  width: 300px;
+  margin-right: 12px;
+  background-image: url(/Pictures/Content/8th.jpg);
+  background-size: contain;
+}
+.innerThree {
+  height: 300px;
+  width: 300px;
+  margin-right: 12px;
+  background-image: url(/Pictures/Content/9th.jpg);
+  background-size: cover;
+}
+.innerFour {
+  height: 300px;
+  width: 300px;
+  margin-right: 12px;
+  background-image: url(/Pictures/Content/10th.jpg);
+  background-size: cover;
+}
+
+.Nike {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.nikeStore {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 12px;
+  margin-bottom: 100px;
+  height: 500 px;
+  width: 30%;
+  background-image: url(/Pictures/Content/11th.jpeg);
+  background-size: cover;
+}
+
+.nikeBtn1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+  height: 150px;
+  width: 400px;
+  color: white;
+}
+.storeBtn {
+  height: 40px;
+  width: 120px;
+}
+.upper2 {
+  margin-top: 100px;
+  font-weight: 500;
+  padding-left: 58px;
+}
+.nikeRun {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 12px;
+  margin-bottom: 100px;
+  height: 500px;
+  width: 30%;
+  background-image: url(/Pictures/Content/12th.jpeg);
+  background-size: cover;
+}
+
+.nikeBtn2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+  padding-bottom: 20px;
+  height: 150px;
+  width: 300px;
+  color: white;
+}
+.nikeBtn2 h3 {
+  padding-bottom: 10px;
+}
+.runBtn {
+  height: 40px;
+  width: 90px;
+}
+
+.nikeforYou {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 100px;
+  height: 500px;
+  width: 30%;
+  background-image: url(/Pictures/Content/13th.jpeg);
+  background-size: cover;
+}
+
+.nikeBtn3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+  height: 150px;
+  width: 300px;
+  color: white;
+}
+
+.footermain1 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-bottom: 100px;
+}
+.firstfooter li {
+  padding-top: 15px;
+}
+
+.footermain2 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+.secondFooter li {
+  padding-top: 15px;
+}
+h4 {
+  font-weight: 550;
+}
+
+.lastLine {
+  width: 80%;
+  display: flex;
+  padding-bottom: 80px;
+  padding-left: 80px;
+  list-style: none;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.lastimg {
+  display: flex;
+}
+.lastimg img {
+  padding-right: 5px;
 }
